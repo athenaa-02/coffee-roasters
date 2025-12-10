@@ -41,6 +41,7 @@ section.first {
   background-image: url("./images/Bitmap.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 117px 0 116px 85px;
 }
 
 section.first h1 {
@@ -49,4 +50,29 @@ section.first h1 {
   width: 493px;
   color: white;
   font-family: "Fraunces", serif;
+  line-height: 72px;
+}
+
+section.first p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #FEFCF7;
+opacity: 80%;
+width: 425px;
+margin-top: 32px;
+}
+
+section.first button{
+width: 217px;
+height: 56px;
+background-color: #0E8784;
+border-radius: 6px;
+border: none;
+  font-family: "Fraunces", serif;
+  color: #FEFCF7;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0;
+  margin-top: 56px;
 }
