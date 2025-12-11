@@ -158,4 +158,40 @@ section.third {
       }
     }
   }
+
+  div.box_parent {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: -231px;
+
+    div.box {
+      width: 350px;
+      height: 382px;
+      background-color: #0e8784;
+      border-radius: 8px;
+      padding: 72px 48px 48px 47px;
+      text-align: center;
+
+      h3 {
+        margin: 56px 0 24px 0;
+        color: white;
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: 24px;
+      }
+      p {
+        color: #fefcf7;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+
+    div.different_img {
+      h3 {
+        margin-top: 70px;
+      }
+    }
+  }
 }
