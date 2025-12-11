@@ -129,3 +129,33 @@ div.info {
 }
 
 /* section third */
+
+section.third {
+  div.dark {
+    background-color: #283038;
+    height: 577px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+    div.wrapper {
+      width: 540px;
+      height: 160px;
+      text-align: center;
+      color: #fefcf7;
+
+      h2 {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 32px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
